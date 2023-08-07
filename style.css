@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+
+/* NAVBAR  */
+ .navbar {
+    display: flex;
+    justify-content: end;
+   
+    
+}
+
+.navul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+
+.navul li{
+    padding-right: 25px;
+}
+
+
+/* NAVBAR END */
+
+.container{
+    padding-top: 8%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.googlephoto{
+   
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    padding-bottom: 30px;
+  
+
+    
+}
+.google-input{
+    width: 580px;
+    padding: 15px 30px;
+    border-radius: 45px;
+    border-width: 1px;
+    border-color: black;
+    outline: none;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.google-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+
+
+.voice{
+    width: 25px;
+    position: absolute;
+    top: 135px;
+    right: 50px;
+}
+
+.photo{
+    width: 38px;
+    position: absolute;
+    top: 132px;
+    right: 12px;
+    
+}
+.keyboard{
+    width: 38px;
+    position: absolute;
+    top: 132px;
+    right: 80px;
+}
+
+.search{
+    font-size: small;
+   opacity: 0.4;
+    width: 16px;
+    position: absolute;
+    top: 138px;
+    left: 18px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    padding-top: 15px;
+    
+}
+button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+button:hover{
+   background-color: #e1e0e087;
+}
+
+.button1{
+    margin-right: 15px;
+}
+
+span{
+    font-size: small;
+}
+a{
+    font-size: small;
+}
+/* FOOTER  */
+
+footer{
+    margin: 245px 0 10px ;
+    padding: 10px 35px;
+    background-color: #f2f2f2;
+
+
+}
+
+.fotir{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+   
+ 
+    
+  
+}
+
+.footerul{
+    list-style: none;
+    display: flex;
+  padding-top: 10px;
+    
+}
+
+.footerul li{
+    padding-right: 40px;
+    color: #70757A;
+    
+    
+}
